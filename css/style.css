@@ -83,7 +83,7 @@ section{
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
- }
+}
 
 .subsection{
     padding: 20px;
@@ -177,5 +177,36 @@ footer{
 }
 
 @media screen and (max-width: 640px){
+    .nav-container{
+        width: 100%;
+        margin: 0 auto;
+    }
     
+    h1{ 
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav{
+        float: left;
+        margin: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    section{
+        width: 95%;
+    }
+
+    .pic-personal{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .tile{
+        width: 100%;
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
 }
