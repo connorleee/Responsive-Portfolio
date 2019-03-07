@@ -179,7 +179,7 @@ footer{
     }
 
     .tile{
-        /* This fixes the width relative to the viewport so the picture sizes are static. This appears to be what the sample images require. */
+        /* This fixes the width relative to the viewport height so the picture sizes are static. This appears to be what the sample images require. */
         width: 30VH;
         }
 
@@ -196,7 +196,7 @@ footer{
     }
 
     .tile{
-        /* This fixes the width relative to the viewport so the picture sizes are static. This appears to be what the sample images require.*/
+        /* This fixes the width relative to the viewport height so the picture sizes are static. This appears to be what the sample images require.*/
         width: 25VH; 
     }
 
